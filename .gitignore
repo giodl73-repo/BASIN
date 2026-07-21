@@ -1,0 +1,16 @@
+# Build artifacts
+/target
+**/*.rs.bk
+/.craft/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Local data (no raw datasets committed)
+/data/raw/
+/data/cache/
+
+# PROOF cache
+/.proof/

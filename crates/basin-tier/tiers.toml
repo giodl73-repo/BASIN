@@ -1,0 +1,27 @@
+version = "v0"
+rationale = "Provisional tier-SLA record pending calibrated operational evidence."
+evidence_label = "planned"
+
+[tiers.T1]
+supply_reliability = "firm drought-of-record yield"
+quality = "potable / treated"
+continuity = "redundant supply"
+access = "regional gateway supply"
+
+[tiers.T2]
+supply_reliability = "firm normal-year yield"
+quality = "potable / treated"
+continuity = "redundant supply"
+access = "municipal supply"
+
+[tiers.T3]
+supply_reliability = "conditional yield"
+quality = "treated to standard"
+continuity = "single-source supply"
+access = "community supply"
+
+[tiers.T4]
+supply_reliability = "interruptible yield"
+quality = "baseline treatment"
+continuity = "local-source supply"
+access = "local / rural supply"

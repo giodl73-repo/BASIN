@@ -1,0 +1,8 @@
+[workspace]
+members = ["crates/basin-network", "crates/basin-corpus", "crates/basin-score", "crates/basin-tier", "crates/basin-gap", "crates/basin-cli"]
+resolver = "3"
+
+[workspace.package]
+edition = "2021"
+license = "MIT"
+version = "0.1.0"

@@ -1,0 +1,10 @@
+[package]
+name = "basin-score"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+basin-corpus = { path = "../basin-corpus" }
+serde = { version = "1", features = ["derive"] }
+thiserror = "1"

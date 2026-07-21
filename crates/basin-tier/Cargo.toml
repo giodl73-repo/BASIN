@@ -1,0 +1,12 @@
+[package]
+name = "basin-tier"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+basin-corpus = { path = "../basin-corpus" }
+basin-network = { path = "../basin-network" }
+basin-score = { path = "../basin-score" }
+serde = { version = "1", features = ["derive"] }
+thiserror = "1"
