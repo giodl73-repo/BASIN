@@ -15,6 +15,12 @@ rights, hydrologic basis, and demand basis attached to every conclusion.
 > review, or advocacy brief, and it claims no agency, basin-authority, tribal,
 > or international-body endorsement.
 
+## Use BASIN
+
+BASIN is public and open to use as a reference model for water-system evidence
+discipline. To scope the first public run or contribute source surfaces, start
+with [`docs/adoption/README.md`](docs/adoption/README.md).
+
 ## Why this matters
 
 A system can have water on paper and still fail during drought, peak demand,
@@ -41,6 +47,24 @@ The implementation baseline is complete and fixture-backed. The next public
 milestone is the first cited end-to-end water-system analysis with reproducible
 source manifests.
 
+## Next public run
+
+The first public BASIN finding should be deliberately narrow: one basin,
+utility service area, conveyance path, drought scenario, reuse question, or
+access gap with reproducible source manifests.
+
+| Need | Example Source Surface |
+|---|---|
+| Supply and demand basis | agency water plans, hydrologic records, demand forecasts. |
+| Storage and conveyance | reservoir, canal, pipe, pump, loss, and outage records. |
+| Drought or contamination exposure | drought plans, water-quality notices, emergency declarations. |
+| Rights and jurisdiction | public water-rights records, compacts, agency boundaries. |
+
+The first run should prove the evidence workflow and gap classification. It
+should not claim hydraulic model-of-record status, rights determination,
+engineering readiness, environmental clearance, project selection, or agency,
+basin-authority, tribal, or international-body endorsement.
+
 ## Quick start
 
 ```powershell
@@ -61,6 +85,7 @@ claims retain their hydrologic and demand basis.
 ## Documentation
 
 - [`PRODUCT_PLAN.md`](PRODUCT_PLAN.md) — scope, product shape, and next work.
+- [`docs/adoption/`](docs/adoption) — first public run scoping and source contribution path.
 - [`docs/vtrace/`](docs/vtrace) — VTRACE requirements, architecture, trace, and verification.
 - [`context/waves/`](context/waves) — repo-local execution history.
 - [`.roles/ROLE.md`](.roles/ROLE.md) — adversarial review panel.

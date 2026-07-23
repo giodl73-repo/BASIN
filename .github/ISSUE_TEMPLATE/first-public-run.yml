@@ -1,0 +1,34 @@
+name: First public run proposal
+description: Propose a bounded BASIN source-backed water-system analysis run.
+title: "First public run: "
+labels: ["first-run", "evidence-needed"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this to scope one bounded BASIN run. Public reuse does not create hydraulic, rights, engineering, environmental, project-selection, endorsement, or validation claims.
+  - type: input
+    id: scope
+    attributes:
+      label: Bounded scope
+      placeholder: "Example: one basin drought-resilience scenario"
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Water promise question
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Source surfaces
+    validations:
+      required: true
+  - type: textarea
+    id: held
+    attributes:
+      label: Claims that must stay held
+    validations:
+      required: true
